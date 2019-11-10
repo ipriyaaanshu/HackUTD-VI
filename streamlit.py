@@ -196,6 +196,8 @@ if page == 'Results':
 	st.image('Results/ROC.png')
 	
 if page == 'Analysis':
+	
+	st.write("See Tableau Workbook at https://public.tableau.com/profile/shubham.kothari#!/vizhome/FannieMae-MortgageAnalysis/Story1?publish=yes")
 	st.write("FICO Score Distribution for different Loan Status")
 	st.image("Results/FICO Score Distribution for different Loan Status.png")
 	
